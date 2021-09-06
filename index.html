@@ -3,18 +3,23 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@700&display=swap" rel="stylesheet">
         <title>Vazo</title>
-        <style>
-            body {
-                overflow: hidden;
-                margin: 0px;
-            }
-        </style>
     </head>
 
-    <body>
-        <div id="headCanvas" style="overflow: hideen; margin:0px; text-align:center">
+    <body class="col-xs-12" style="margin: 0px; overflow-x: hidden;">
+        <div id="headCanvas">
+            <div class="col-xs-12" style="text-align: center">
+                <p style="color: #121113 ;font-size: 80px; position:absolute; margin-top:20%; z-index: 10; width:100%; font-family: 'Advent Pro'" > Deram te o vazo?</p>
+            </div>
         </div>
+        <div style="height: 500px; background-color: #395371;" ></div>
+        <div style="height: 500px; background-color: #2c3d52;" ></div>
+        <div style="height: 500px; background-color: #1f2733;" ></div>
+        <div style="height: 500px; background-color: #191c23;" ></div>
+
         <script type="module" src="bundle.js"></script>
     </body>
 </html>
