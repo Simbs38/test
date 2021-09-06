@@ -33,3 +33,8 @@
     background-color: #191c23;
     color: white;
 }
+
+.container[id=Footer]{
+    background-color: #121113;
+    color: white;
+}
